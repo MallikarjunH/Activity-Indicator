@@ -66,7 +66,7 @@
 			children = (
 				06AD4CA3237430D1001579B8 /* AppDelegate */,
 				06AD4CA4237430E6001579B8 /* SceneDelegate */,
-				06AD4CA5237430FF001579B8 /* ERProgressHud */,
+				06AD4CA5237430FF001579B8 /* ERProgressHudClass */,
 				06AD4C9023742F8A001579B8 /* ViewController.h */,
 				06AD4C9123742F8A001579B8 /* ViewController.m */,
 				06AD4C9323742F8A001579B8 /* Main.storyboard */,
@@ -96,13 +96,13 @@
 			path = SceneDelegate;
 			sourceTree = "<group>";
 		};
-		06AD4CA5237430FF001579B8 /* ERProgressHud */ = {
+		06AD4CA5237430FF001579B8 /* ERProgressHudClass */ = {
 			isa = PBXGroup;
 			children = (
 				06AD4CA62374313A001579B8 /* ERProgressHud.h */,
 				06AD4CA72374313A001579B8 /* ERProgressHud.m */,
 			);
-			path = ERProgressHud;
+			path = ERProgressHudClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
