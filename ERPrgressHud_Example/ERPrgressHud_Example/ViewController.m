@@ -23,14 +23,14 @@
 - (IBAction)showProgress:(id)sender {
     
    
-    // Show Simple ProgressHud without Title
-    [[ERProgressHud sharedInstance] show];
+    // Show Simple ProgressHud without Title - Best One 1
+  //  [[ERProgressHud sharedInstance] show];
 
     // Show Blur Background View ProgressHud without Title
   //  [[ERProgressHud sharedInstance] showWithBlurView];
 
-    // Show Transparent Background View ProgressHud with Title
-  //  [[ERProgressHud sharedInstance] showWithTitle:@"Loading..."];
+    // Show Transparent Background View ProgressHud with Title - Best One 2
+    [[ERProgressHud sharedInstance] showWithTitle:@"Loading..."];
 
     // Show Blur Background View ProgressHud with Title
  //   [[ERProgressHud sharedInstance] showBlurViewWithTitle:@"Loading..."];
