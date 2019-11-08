@@ -24,3 +24,8 @@ This example show how to show Activity Indicator at navigation bar, how to show 
     // Show Dark Background View ProgressHud with Title
     
       [[ERProgressHud sharedInstance] showDarkBackgroundViewWithTitle:@"Loading..."];
+
+
+   // Hide ProgressView
+    
+    [[ERProgressHud sharedInstance] hide];
