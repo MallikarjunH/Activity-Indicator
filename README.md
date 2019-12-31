@@ -31,10 +31,12 @@ This example show how to show Activity Indicator at navigation bar, how to show 
     [[ERProgressHud sharedInstance] hide];
     
  3. SVProgressView
+ 
     https://github.com/SVProgressHUD/SVProgressHUD
     
     
       // Style Mask (Background)
+      
           SVProgressHUD.setDefaultMaskType(SVProgressHUDMaskType.black)
           SVProgressHUD.setDefaultMaskType(SVProgressHUDMaskType.clear)
           SVProgressHUD.setDefaultMaskType(SVProgressHUDMaskType.gradient)
